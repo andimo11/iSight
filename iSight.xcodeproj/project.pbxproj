@@ -13,6 +13,7 @@
 		B66E103A239C7E7B002ED94D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B66E1038239C7E7B002ED94D /* Main.storyboard */; };
 		B66E103C239C7E7E002ED94D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B66E103B239C7E7E002ED94D /* Assets.xcassets */; };
 		B66E103F239C7E7E002ED94D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B66E103D239C7E7E002ED94D /* LaunchScreen.storyboard */; };
+		B66E1047239C7FA7002ED94D /* YOLOv3TinyFP16.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B66E1046239C7FA7002ED94D /* YOLOv3TinyFP16.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B66E103B239C7E7E002ED94D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B66E103E239C7E7E002ED94D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B66E1040239C7E7E002ED94D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B66E1046239C7FA7002ED94D /* YOLOv3TinyFP16.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = YOLOv3TinyFP16.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				B66E1032239C7E7B002ED94D /* AppDelegate.swift */,
+				B66E1046239C7FA7002ED94D /* YOLOv3TinyFP16.mlmodel */,
 				B66E1034239C7E7B002ED94D /* SceneDelegate.swift */,
 				B66E1036239C7E7B002ED94D /* ViewController.swift */,
 				B66E1038239C7E7B002ED94D /* Main.storyboard */,
@@ -141,6 +144,7 @@
 				B66E1037239C7E7B002ED94D /* ViewController.swift in Sources */,
 				B66E1033239C7E7B002ED94D /* AppDelegate.swift in Sources */,
 				B66E1035239C7E7B002ED94D /* SceneDelegate.swift in Sources */,
+				B66E1047239C7FA7002ED94D /* YOLOv3TinyFP16.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
